@@ -1,0 +1,188 @@
+BODY {
+	font-size: 8pt;
+}
+.ColumnLeft H4, .LongDescription H4, H5, .PaddedDay {
+	display: inline;
+}
+.BorderLeftGreen {
+	background: rgb(70,120,100) url('television.gif') no-repeat scroll top right;
+	position: absolute;
+	top: 2%;
+	left: 0%;
+	height: 60%;
+	width: 5%;
+}
+.BorderLeftBlack {
+	background-color: black;
+	position: absolute;
+	left: 0%;
+	top: 50%;
+	height: 145%;
+	width: 5%;
+}
+.BorderRight {
+	background-color: black;
+	position: absolute;
+	right: 0%;
+	top: 2%;
+	height: 196%;
+	width: 1.5%;
+}
+HR {
+	color: rgb(200,195,180);
+	background-color: rgb(200,195,180);
+	height: 3px;
+}
+.ColumnLeft EM {
+	font-weight: bold;
+	font-style: normal;
+	font-family: sans-serif;
+}
+.DayBox EM {
+	text-transform: uppercase;
+	font-style: normal;
+}
+H1, H2 {
+	color: white;
+	text-align: center;
+	margin-left: 7%;
+	margin-right: 0.5%;
+}
+H1 {
+	background-color: black;
+	font-family: Charcoal, Britannic Bold, serif;
+	font-size: 64pt;
+	letter-spacing: 0.1ex;
+	line-height: 0.9;
+	word-spacing: -0.7ex;
+	margin-bottom: 0px;
+}
+H2 {
+	margin-top: 0px;
+	background-color: rgb(65,110,90);
+	font-size: 9pt;
+}
+H2 CITE {
+	font-style: normal;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: 200;
+	color: black;
+}
+H3 {
+	background: url('lopez.jpg') no-repeat scroll bottom right;
+	height: 208px;
+	margin-bottom: 0px;
+	font-size: 36pt;
+	font-family: sans-serif;
+}
+H4 {
+	color: rgb(165,50,40);
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 8pt;
+	margin: 0ex 0.5ex 0ex 0ex;
+}
+.ColumnRight H4 {
+	font-weight: bold;
+}
+.WeekDay {
+	background-color: rgb(165,50,40);
+	letter-spacing: 1ex;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 12pt;
+	color: white;
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	padding: 0.2ex 2ex;
+	margin-right: 1ex;
+}
+.Date {
+	background-color: black;
+	font-family: Charcoal, Britannic, serif;
+	font-weight: bold;
+	color: white;
+	vertical-align: top;
+	display: block;
+	letter-spacing: 1ex;
+	padding: 0.2ex 2ex;
+	font-size: 7pt;
+}
+.DayBox {
+	border: 1px solid black;
+	border-right: none;
+	background-color: rgb(250,245,230);
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.GreenTo {
+	color: rgb(155,175,160);
+}
+.ColumnLeft {
+	position: absolute;
+	left: 7%;
+	width: 32%;
+	text-align: justify;
+	padding-right: 1%;
+	border-right: 1px solid black;
+}
+.ColumnRight {
+	position: absolute;
+	left: 40%;
+	margin-right: 0.5%;
+}
+.Debut {
+	border: 1px solid black;
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 6pt;
+	letter-spacing: 0.5ex;
+	text-transform: uppercase;
+	padding: 0.5ex;
+	text-align: center;
+	margin-bottom: 1ex;
+}
+.PaddedDay {
+	padding: 0em 1em;
+	border-left: 1px solid black;
+	width: 32%;
+	font-size: 7pt;
+	margin: 1ex 0ex;
+	vertical-align: middle;
+}
+.LeftSide {
+	clear: both;
+	border-left: none;
+}
+.PictureCaption {
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5;
+	margin-bottom: 1em;
+}
+.Time {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 10pt;
+	margin-top: 1em;
+	font-weight: bold;
+	color: black;
+}
+.LongDescription {
+	color: rgb(165,50,40);
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-bottom: 1em;
+}
+.BigAngryMacIE5BugFixBox {
+	position: absolute;
+	top: 2%;
+	left: 0%;
+	width: 100%;
+}

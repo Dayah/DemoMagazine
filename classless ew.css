@@ -1,0 +1,157 @@
+/*
+green left border			BODY > DIV:first-child
+black left border			BODY > DIV:first-child + DIV
+right border				BODY > DIV:first-child + DIV + DIV
+By Dalton Ross				H2 > CITE
+Left column					H2 + DIV
+Right column				H2 + DIV + DIV
+Yellow box					H2 + DIV + DIV > DIV
+The Guest List				BODY > DIV > H3
+Jennifer Lopez				H3 + DIV
+Jay Leno					H2 + DIV > H4
+Monday Jan 22				H3 > SPAN (DIV * H3)
+Red Monday					H3 > SPAN:first-child
+January 22					H3 > SPAN + SPAN
+9-11pm in red				SPAN > H4, IMG + H4
+9-11pm in black				IMG + H4
+Long description			IMG + H4 + P
+Series Debut				SPAN > DIV:first-child
+Show title					STRONG
+Bold Monday					EM
+*/
+
+BODY {
+	padding: 1cm 8mm 0.5in 1.5cm;
+	font-family: sans-serif;
+	border-right: 3mm solid black;
+}
+BODY > DIV:first-child {
+	position: absolute;
+	top: 1cm;
+	left: 0;
+	bottom: 0;
+	background: url('television.gif') no-repeat right top;
+	width: 1cm;
+}
+BODY > DIV:first-child + DIV {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	bottom: 0;
+	width: 1cm;
+}
+HR {
+	border: 0;
+	background-color: rgb(200,195,180);
+	height: 1mm;
+}
+H1 {
+	font: 64pt/60pt Britannic;
+	letter-spacing: 0.1ex;
+	line-height: 0.9;
+	word-spacing: -0.5ex;
+	margin-bottom: 0;
+}
+H1 > SPAN {
+	color: rgb(155,175,160);
+}
+H2 > CITE, H3 + DIV, H2 + DIV > H4, H3 > SPAN:first-child, SPAN > DIV:first-child, STRONG {
+	text-transform: uppercase;
+}
+BODY, SPAN > DIV:first-child {
+	background-color: white;
+}
+IMG + H4, SPAN > H4 {
+	font-variant: small-caps;
+}
+BODY > DIV:first-child, H2 {
+	background-color: rgb(70,115,95);
+}
+H1, H2, H3 + DIV, H3 > SPAN {
+	color: white;
+}
+BODY > DIV:first-child + DIV, BODY > DIV:first-child + DIV + DIV, H1, H3 + DIV, H3 > SPAN + SPAN {
+	background-color: black;
+}
+H2 + DIV > H4, SPAN > H4, IMG + H4 + P {
+	color: rgb(165,50,40);
+}
+IMG + H4 { clear: left; }
+H3 > SPAN:first-child {
+	background-color: rgb(165,50,40);
+	padding: 0.2ex 2ex;
+	float: left;
+}
+H3 > SPAN:first-child, SPAN > DIV:first-child {
+	letter-spacing: 1ex;
+}
+DIV * H3, H2 + DIV > H4, P { display: inline; }
+H3 > SPAN + SPAN, DIV > SPAN { display: block; }
+H4 { margin-bottom: 0; }
+H1, H2, H3 + DIV, SPAN > DIV:first-child {
+	text-align: center;
+}
+SPAN > DIV:first-child, H2 + DIV + DIV > DIV {
+	border: thin solid black;
+}
+H2 + DIV + DIV > DIV {
+	border-right: none;
+	background-color: rgb(250,245,230);
+}
+DIV > SPAN {
+	padding: 0em 1em;
+	margin: 1ex 0ex;
+	border-left: thin solid black;
+	width: 25%;
+}
+H2 + DIV {
+	text-align: justify;
+	float: left;
+	border-right: thin solid black;
+	padding-right: 5mm;
+	margin-right: 5mm;
+	width: 30%;
+}
+H2 + DIV + DIV {
+	float: right;
+}
+EM { font-weight: bold; font-style: normal; }
+STRONG { font-weight: normal; }
+/*
+H2 CITE {
+	font-style: normal;
+	font-weight: 200;
+	color: black;
+}
+H3 {
+	background: url('lopez.jpg') no-repeat scroll bottom right;
+	height: 208px;
+	margin-bottom: 0px;
+	font-size: 32pt;
+}
+H4 {
+	margin: 0 0.5ex 0 0;
+}
+.DayBox > SPAN + SPAN {
+	font-family: Britannic;
+	letter-spacing: 1ex;
+	padding: 0.2ex 2ex;
+}
+.DayBox * DIV {
+	letter-spacing: 0.5ex;
+	padding: 0.5ex;
+	margin-bottom: 1ex;
+}
+.DayBox > DIV {
+}
+H2 + DIV > DIV {
+	line-height: 1.5;
+	margin-bottom: 1em;
+}
+.DayBox + IMG + H4 + P {
+	margin-bottom: 1em;
+}
+.DayBox + IMG + H4 + P > STRONG {
+	margin-top: 1em;
+}
+*/
